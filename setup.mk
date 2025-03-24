@@ -8,6 +8,9 @@ PRODUCT_PACKAGES += \
 # SEPolicy
 BOARD_VENDOR_SEPOLICY_DIRS += vendor/sony/dolby/sepolicy/vendor
 
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33
+
 # Dolby properties
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.audio_fx.current=dolby \
